@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['ress', '~/assets/css/foundation.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -56,5 +56,6 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+  components: true
 }
